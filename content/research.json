@@ -1,0 +1,158 @@
+[
+  {
+    "id": "cascade",
+    "area": "vision",
+    "label": "Visual learning",
+    "title": "From vertebra segmentation to fracture classification",
+    "paper": "A Two-Stage Approach for the Identification and Classification of Osteoporotic Vertebral Compression Fractures",
+    "venue": "Medical Physics",
+    "year": "2026",
+    "status": "Published",
+    "authors": "Yilin Wang*, <strong>Siyu Chen*</strong>, Hongwei Zhuang*, et al.",
+    "role": "Project leader · Co-first author",
+    "image": "cascade",
+    "alt": "Two-stage framework connecting enhanced DeepLabv3+ vertebral segmentation and fracture classification.",
+    "description": "A two-stage X-ray pipeline separates vertebral segmentation from fracture classification, supporting both fracture identification and differentiation of new and old fractures.",
+    "contribution": "Developed an enhanced DeepLabv3+ segmentation module and a downstream classification pipeline for binary and three-class tasks.",
+    "result": "Binary AP 72.90 and three-class AP 50.16, compared with 53.51 and 39.59 for single-stage baselines.",
+    "url": "https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.70479",
+    "extra": [
+      [
+        "dataset",
+        "Construction of the classification dataset"
+      ]
+    ],
+    "stage": "ra",
+    "stage_label": "RA research",
+    "research_dates": "Jul–Oct 2025"
+  },
+  {
+    "id": "vertex",
+    "area": "vision",
+    "label": "Visual learning",
+    "title": "VerteX-ID: multi-task fracture detection",
+    "paper": "VerteX-ID: A Multi-Task Learning Framework for Osteoporotic Compression Fracture Detection",
+    "venue": "IISE Transactions on Healthcare Systems Engineering",
+    "year": "2026",
+    "status": "Under review",
+    "authors": "Yilin Wang*, <strong>Siyu Chen*</strong>, Hongwei Zhuang*, et al.",
+    "role": "Co-first author",
+    "image": "vertex",
+    "alt": "Overview of the VerteX-ID multi-task framework with image enhancement and vertebral analysis.",
+    "description": "A multi-task learning framework for osteoporotic compression fracture detection, combining image enhancement and dedicated segmentation and classification components.",
+    "contribution": "Co-first-author research on learning from vertebral X-rays, with the ConDSeg and SCTNet architectures shown in the accompanying project figures.",
+    "result": null,
+    "url": null,
+    "extra": [
+      [
+        "conds",
+        "ConDSeg architecture"
+      ],
+      [
+        "sctnet",
+        "SCTNet architecture"
+      ]
+    ],
+    "stage": "ra",
+    "stage_label": "RA research",
+    "research_dates": null
+  },
+  {
+    "id": "dvt",
+    "area": "prediction",
+    "label": "Interpretable prediction",
+    "title": "Interpretable preoperative DVT risk stratification",
+    "paper": "An interpretable machine learning framework for preoperative deep vein thrombosis risk stratification based on thrombus size in fracture patients",
+    "venue": "Scientific Reports",
+    "year": "2026",
+    "status": "Under review",
+    "authors": "Yilin Wang*, <strong>Siyu Chen*</strong>, et al.",
+    "role": "Project leader · Co-first author",
+    "image": "dvt",
+    "alt": "DVT study workflow showing risk groups, feature selection, machine learning, and SHAP interpretation.",
+    "description": "A three-level risk stratification framework based on thrombus size, using 62 clinical variables from 1,216 fracture patients.",
+    "contribution": "Combined LASSO feature selection, CatBoost, SMOTE, and SHAP analysis to connect predictive performance with clinical interpretation.",
+    "result": "Reported test performance: 96.67% accuracy, 96.67% F1-score, and 98.94% AUC-ROC using 41 selected features.",
+    "url": null,
+    "extra": [],
+    "stage": "ra",
+    "stage_label": "RA research & follow-up",
+    "research_dates": "Jan–Apr 2026"
+  },
+  {
+    "id": "transfer",
+    "area": "vision",
+    "label": "Visual learning",
+    "title": "Transfer learning with limited, low-quality X-rays",
+    "paper": "Identifying acute thoracolumbar vertebral compression fractures from low-quality small-sample X-ray images: a transfer learning-based approach",
+    "venue": "IEEE Journal of Biomedical and Health Informatics",
+    "year": "2025",
+    "status": "Published",
+    "authors": "Yilin Wang*, Weijun Li*, <strong>Siyu Chen*</strong>, et al.",
+    "role": "Project leader · Co-first author",
+    "image": "transfer",
+    "alt": "Graphical abstract of the transfer learning pipeline integrating X-ray features, ViTDet, and Faster R-CNN.",
+    "description": "Investigating acute thoracolumbar vertebral compression fracture identification under small-sample and low-image-quality constraints.",
+    "contribution": "Integrated edge and texture features with ViTDet and Faster R-CNN to study transfer learning in a challenging clinical imaging setting.",
+    "result": "Approximately 33% of acute fracture images correctly classified by the model versus 27% in manual classification in the reported experiment.",
+    "url": "https://ieeexplore.ieee.org/abstract/document/11265857",
+    "extra": [],
+    "stage": "ra",
+    "stage_label": "RA research",
+    "research_dates": "Mar–Aug 2025"
+  },
+  {
+    "id": "umfcc",
+    "area": "signals",
+    "label": "Signal representations",
+    "title": "Listening to xylem cavitation with U-MFCC",
+    "paper": "Waveform purification of ultrasonic signals from xylem cavitation in tree species based on U-MFCC feature extraction and voiceprint recognition models",
+    "venue": "Computers and Electronics in Agriculture",
+    "year": "2025",
+    "status": "Published",
+    "authors": "<strong>Siyu Chen</strong>, et al.",
+    "role": "Project leader · First author",
+    "image": "umfcc",
+    "alt": "U-MFCC feature extraction with adapted Mel filters, IDCT, feature ranking, and PCA.",
+    "description": "Adapting voiceprint recognition methods to purify ultrasonic cavitation waveforms collected from two tree species.",
+    "contribution": "Developed U-MFCC with adapted Mel filter banks, IDCT, F-ratio feature selection, and PCA; evaluated ECAPA-TDNN, CAM++, and ERes2Net.",
+    "result": "The workflow selects 100 feature dimensions and reduces them to 40 with PCA for downstream waveform recognition.",
+    "url": "https://www.sciencedirect.com/science/article/pii/S0168169925009470",
+    "extra": [
+      [
+        "cavitation",
+        "Cavitation signal acquisition setup"
+      ]
+    ],
+    "stage": "early",
+    "stage_label": "Post-graduation continuation",
+    "research_dates": "Jul–Dec 2024"
+  },
+  {
+    "id": "seeds",
+    "area": "vision",
+    "label": "Visual learning",
+    "title": "Seeing internal seed cracks without destruction",
+    "paper": "Soft X-ray image recognition and classification of maize seed cracks based on image enhancement and optimized YOLOv8 model",
+    "venue": "Computers and Electronics in Agriculture",
+    "year": "2024",
+    "status": "Published",
+    "authors": "<strong>Siyu Chen</strong>, et al.",
+    "role": "Project leader · First author",
+    "image": "seeds",
+    "alt": "Optimized YOLOv8 architecture for recognizing internal cracks in maize seeds.",
+    "description": "Non-destructive inspection of internal cracks in Zhengdan 958 maize seeds using soft X-ray imaging and an optimized YOLOv8 model.",
+    "contribution": "Combined wavelet denoising, image standardization, bilateral filtering, and Laplacian sharpening with object detection.",
+    "result": null,
+    "url": "https://www.sciencedirect.com/science/article/pii/S0168169923008633",
+    "extra": [
+      [
+        "seed-enhancement",
+        "Image enhancement and grayscale distributions"
+      ]
+    ],
+    "stage": "early",
+    "stage_label": "Undergraduate research",
+    "research_dates": "Aug–Dec 2023"
+  }
+]
