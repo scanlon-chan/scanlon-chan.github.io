@@ -1,6 +1,6 @@
 # Siyu Chen — Academic Website
 
-An English academic portfolio focused on **Machine Learning for Real-World Sensing**, inspired by [PRISM](https://github.com/xyjoey/PRISM). The HTML, CSS, and JavaScript implementation is original; PRISM is referenced for its academic layout and typography. No build framework or package installation is needed.
+An English academic portfolio focused on **AI for Real-World Sensing**, inspired by [PRISM](https://github.com/xyjoey/PRISM). The HTML, CSS, and JavaScript implementation is original; PRISM is referenced for its academic layout and typography. No build framework or package installation is needed.
 
 ## Content
 
